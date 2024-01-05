@@ -10,4 +10,6 @@ int main()
   }else{
     printf("\nYou are incorrect!");
   }
+
+  return 0;
 }
