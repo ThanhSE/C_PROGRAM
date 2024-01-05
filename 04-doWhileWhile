@@ -1,0 +1,17 @@
+#include <stdlib.h>
+#include <stdio.h>
+int main()
+{
+  int doWhileCond = 1;
+  do{
+    printf("\nThis is do-while loop %d", doWhileCond);
+    doWhileCond++;
+  }while(doWhileCond <= 10)
+
+  int whileCond = 1;
+  while(whileCond <= 10){
+    printf("\nThis is while loop %d", whileCond);
+  }
+
+  return 0;
+}
