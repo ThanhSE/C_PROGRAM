@@ -1,0 +1,13 @@
+#include <stdlib.h>
+#include <stdio.h>
+int main()
+{
+  int true = 1;
+  if(true){
+    printf("\nYou are correct!");
+  }else if(true > 1){
+    printf("\nNot boolean type(Only 1-true and 0-false)");
+  }else{
+    printf("\nYou are incorrect!");
+  }
+}
