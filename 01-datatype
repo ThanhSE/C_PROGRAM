@@ -1,0 +1,11 @@
+#include <stdlib.h>
+#include <stdio.h>
+int main()
+{
+  int number = 1;
+  char ch = 'a';
+  printf("\n%d", &number);
+  printf("\n%c", &nch);
+  
+  return 0;
+}
