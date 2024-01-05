@@ -1,0 +1,14 @@
+#include <stdlib.h>
+#include <stdio.h>
+int main()
+{
+  int number;
+  char buffer;
+  printf("\nEnter number: ");
+  scanf("%d", &number);
+  scanf("%c", &buffer);
+
+  printf("\nNumber = %d", number);
+  printf("\nBuffer = %d", buffer);
+  return 0;
+}
